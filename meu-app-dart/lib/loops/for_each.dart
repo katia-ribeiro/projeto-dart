@@ -12,6 +12,7 @@ void main(List<String> arguments) {
     print(letra);
   }
 
+  // ignore: avoid_function_literals_in_foreach_calls
   letras.forEach((element) {
     print(element);
   });

@@ -14,6 +14,7 @@ void main(List<String> arguments) {
   print("informe a primeira nota:");
   line = stdin.readLineSync(
       encoding: utf8); //Faz a leitura do que digitar no console
+  // ignore: prefer_if_null_operators
   var prova2 = int.parse(line == null ? "0" : line);
 
   var media = (prova1 + prova2) / 2;
